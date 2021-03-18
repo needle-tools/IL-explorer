@@ -1,0 +1,1585 @@
+{
+   "0x58": [
+      {
+         "Instruction": "add",
+         "Description": "Add two values, returning a new value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD6": [
+      {
+         "Instruction": "add.ovf",
+         "Description": "Add signed integer values with overflow check.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD7": [
+      {
+         "Instruction": "add.ovf.un",
+         "Description": "Add unsigned integer values with overflow check.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x5F": [
+      {
+         "Instruction": "and",
+         "Description": "Bitwise AND of two integral values, returns an integral value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x00": [
+      {
+         "Instruction": "arglist",
+         "Description": "Return argument list handle for the current method.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3B": [
+      {
+         "Instruction": "beq <int32 (target)>",
+         "Description": "Branch to target if equal.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2E": [
+      {
+         "Instruction": "beq.s <int8 (target)>",
+         "Description": "Branch to target if equal, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3C": [
+      {
+         "Instruction": "bge <int32 (target)>",
+         "Description": "Branch to target if greater than or equal to.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2F": [
+      {
+         "Instruction": "bge.s <int8 (target)>",
+         "Description": "Branch to target if greater than or equal to, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x41": [
+      {
+         "Instruction": "bge.un <int32 (target)>",
+         "Description": "Branch to target if greater than or equal to (unsigned or unordered).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x34": [
+      {
+         "Instruction": "bge.un.s <int8 (target)>",
+         "Description": "Branch to target if greater than or equal to (unsigned or unordered), short form",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3D": [
+      {
+         "Instruction": "bgt <int32 (target)>",
+         "Description": "Branch to target if greater than.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x30": [
+      {
+         "Instruction": "bgt.s <int8 (target)>",
+         "Description": "Branch to target if greater than, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x42": [
+      {
+         "Instruction": "bgt.un <int32 (target)>",
+         "Description": "Branch to target if greater than (unsigned or unordered).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x35": [
+      {
+         "Instruction": "bgt.un.s <int8 (target)>",
+         "Description": "Branch to target if greater than (unsigned or unordered), short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3E": [
+      {
+         "Instruction": "ble <int32 (target)>",
+         "Description": "Branch to target if less than or equal to.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x31": [
+      {
+         "Instruction": "ble.s <int8 (target)>",
+         "Description": "Branch to target if less than or equal to, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x43": [
+      {
+         "Instruction": "ble.un <int32 (target)>",
+         "Description": "Branch to target if less than or equal to (unsigned or unordered).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x36": [
+      {
+         "Instruction": "ble.un.s <int8 (target)>",
+         "Description": "Branch to target if less than or equal to (unsigned or unordered), short form",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3F": [
+      {
+         "Instruction": "blt <int32 (target)>",
+         "Description": "Branch to target if less than.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x32": [
+      {
+         "Instruction": "blt.s <int8 (target)>",
+         "Description": "Branch to target if less than, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x44": [
+      {
+         "Instruction": "blt.un <int32 (target)>",
+         "Description": "Branch to target if less than (unsigned or unordered).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x37": [
+      {
+         "Instruction": "blt.un.s <int8 (target)>",
+         "Description": "Branch to target if less than (unsigned or unordered), short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x40": [
+      {
+         "Instruction": "bne.un <int32 (target)>",
+         "Description": "Branch to target if unequal or unordered.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x33": [
+      {
+         "Instruction": "bne.un.s <int8 (target)>",
+         "Description": "Branch to target if unequal or unordered, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x8C": [
+      {
+         "Instruction": "box <typeTok>",
+         "Description": "Convert a boxable value to its boxed form",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x38": [
+      {
+         "Instruction": "br <int32 (target)>",
+         "Description": "Branch to target.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2B": [
+      {
+         "Instruction": "br.s <int8 (target)>",
+         "Description": "Branch to target, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x01": [
+      {
+         "Instruction": "break",
+         "Description": "Inform a debugger that a breakpoint has been reached.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x39": [
+      {
+         "Instruction": "brfalse <int32 (target)>",
+         "Description": "Branch to target if value is zero (false).",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brnull <int32 (target)>",
+         "Description": "Branch to target if value is null (alias for brfalse).",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brzero <int32 (target)>",
+         "Description": "Branch to target if value is zero (alias for brfalse).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2C": [
+      {
+         "Instruction": "brfalse.s <int8 (target)>",
+         "Description": "Branch to target if value is zero (false), short form.",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brnull.s <int8 (target)>",
+         "Description": "Branch to target if value is null (alias for brfalse.s), short form.",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brzero.s <int8 (target)>",
+         "Description": "Branch to target if value is zero (alias for brfalse.s), short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x3A": [
+      {
+         "Instruction": "brinst <int32 (target)>",
+         "Description": "Branch to target if value is a non-null object reference (alias for brtrue).",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brtrue <int32 (target)>",
+         "Description": "Branch to target if value is non-zero (true).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2D": [
+      {
+         "Instruction": "brinst.s <int8 (target)>",
+         "Description": "Branch to target if value is a non-null object reference, short form (alias for brtrue.s).",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "brtrue.s <int8 (target)>",
+         "Description": "Branch to target if value is non-zero (true), short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x28": [
+      {
+         "Instruction": "call <method>",
+         "Description": "Call method described by method.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x29": [
+      {
+         "Instruction": "calli <callsitedescr>",
+         "Description": "Call method indicated on the stack with arguments described by callsitedescr.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6F": [
+      {
+         "Instruction": "callvirt <method>",
+         "Description": "Call a method associated with an object.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x74": [
+      {
+         "Instruction": "castclass <class>",
+         "Description": "Cast obj to class.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x01": [
+      {
+         "Instruction": "ceq",
+         "Description": "Push 1 (of type int32) if value1 equals value2, else push 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x02": [
+      {
+         "Instruction": "cgt",
+         "Description": "Push 1 (of type int32) if value1 > value2, else push 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x03": [
+      {
+         "Instruction": "cgt.un",
+         "Description": "Push 1 (of type int32) if value1 > value2, unsigned or unordered, else push 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xC3": [
+      {
+         "Instruction": "ckfinite",
+         "Description": "Throw ArithmeticException if value is not a finite number.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x04": [
+      {
+         "Instruction": "clt",
+         "Description": "Push 1 (of type int32) if value1 < value2, else push 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x05": [
+      {
+         "Instruction": "clt.un",
+         "Description": "Push 1 (of type int32) if value1 < value2, unsigned or unordered, else push 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x16": [
+      {
+         "Instruction": "constrained. <thisType>",
+         "Description": "Call a virtual method on a type constrained to be type T",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0xD3": [
+      {
+         "Instruction": "conv.i",
+         "Description": "Convert to native int, pushing native int on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x67": [
+      {
+         "Instruction": "conv.i1",
+         "Description": "Convert to int8, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x68": [
+      {
+         "Instruction": "conv.i2",
+         "Description": "Convert to int16, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x69": [
+      {
+         "Instruction": "conv.i4",
+         "Description": "Convert to int32, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6A": [
+      {
+         "Instruction": "conv.i8",
+         "Description": "Convert to int64, pushing int64 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD4": [
+      {
+         "Instruction": "conv.ovf.i",
+         "Description": "Convert to a native int (on the stack as native int) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x8A": [
+      {
+         "Instruction": "conv.ovf.i.un",
+         "Description": "Convert unsigned to a native int (on the stack as native int) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB3": [
+      {
+         "Instruction": "conv.ovf.i1",
+         "Description": "Convert to an int8 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x82": [
+      {
+         "Instruction": "conv.ovf.i1.un",
+         "Description": "Convert unsigned to an int8 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB5": [
+      {
+         "Instruction": "conv.ovf.i2",
+         "Description": "Convert to an int16 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x83": [
+      {
+         "Instruction": "conv.ovf.i2.un",
+         "Description": "Convert unsigned to an int16 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB7": [
+      {
+         "Instruction": "conv.ovf.i4",
+         "Description": "Convert to an int32 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x84": [
+      {
+         "Instruction": "conv.ovf.i4.un",
+         "Description": "Convert unsigned to an int32 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB9": [
+      {
+         "Instruction": "conv.ovf.i8",
+         "Description": "Convert to an int64 (on the stack as int64) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x85": [
+      {
+         "Instruction": "conv.ovf.i8.un",
+         "Description": "Convert unsigned to an int64 (on the stack as int64) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD5": [
+      {
+         "Instruction": "conv.ovf.u",
+         "Description": "Convert to a native unsigned int (on the stack as native int) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x8B": [
+      {
+         "Instruction": "conv.ovf.u.un",
+         "Description": "Convert unsigned to a native unsigned int (on the stack as native int) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB4": [
+      {
+         "Instruction": "conv.ovf.u1",
+         "Description": "Convert to an unsigned int8 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x86": [
+      {
+         "Instruction": "conv.ovf.u1.un",
+         "Description": "Convert unsigned to an unsigned int8 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB6": [
+      {
+         "Instruction": "conv.ovf.u2",
+         "Description": "Convert to an unsigned int16 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x87": [
+      {
+         "Instruction": "conv.ovf.u2.un",
+         "Description": "Convert unsigned to an unsigned int16 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xB8": [
+      {
+         "Instruction": "conv.ovf.u4",
+         "Description": "Convert to an unsigned int32 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x88": [
+      {
+         "Instruction": "conv.ovf.u4.un",
+         "Description": "Convert unsigned to an unsigned int32 (on the stack as int32) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xBA": [
+      {
+         "Instruction": "conv.ovf.u8",
+         "Description": "Convert to an unsigned int64 (on the stack as int64) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x89": [
+      {
+         "Instruction": "conv.ovf.u8.un",
+         "Description": "Convert unsigned to an unsigned int64 (on the stack as int64) and throw an exception on overflow.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x76": [
+      {
+         "Instruction": "conv.r.un",
+         "Description": "Convert unsigned integer to floating-point, pushing F on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6B": [
+      {
+         "Instruction": "conv.r4",
+         "Description": "Convert to float32, pushing F on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6C": [
+      {
+         "Instruction": "conv.r8",
+         "Description": "Convert to float64, pushing F on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xE0": [
+      {
+         "Instruction": "conv.u",
+         "Description": "Convert to native unsigned int, pushing native int on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD2": [
+      {
+         "Instruction": "conv.u1",
+         "Description": "Convert to unsigned int8, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD1": [
+      {
+         "Instruction": "conv.u2",
+         "Description": "Convert to unsigned int16, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6D": [
+      {
+         "Instruction": "conv.u4",
+         "Description": "Convert to unsigned int32, pushing int32 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x6E": [
+      {
+         "Instruction": "conv.u8",
+         "Description": "Convert to unsigned int64, pushing int64 on stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x17": [
+      {
+         "Instruction": "cpblk",
+         "Description": "Copy data from memory to memory.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x70": [
+      {
+         "Instruction": "cpobj <typeTok>",
+         "Description": "Copy a value type from src to dest.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x5B": [
+      {
+         "Instruction": "div",
+         "Description": "Divide two values to return a quotient or floating-point result.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x5C": [
+      {
+         "Instruction": "div.un",
+         "Description": "Divide two values, unsigned, returning a quotient.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x25": [
+      {
+         "Instruction": "dup",
+         "Description": "Duplicate the value on the top of the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xDC": [
+      {
+         "Instruction": "endfault",
+         "Description": "End fault clause of an exception block.",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "endfinally",
+         "Description": "End finally clause of an exception block.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x11": [
+      {
+         "Instruction": "endfilter",
+         "Description": "End an exception handling filter clause.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x18": [
+      {
+         "Instruction": "initblk",
+         "Description": "Set all bytes in a block of memory to a given byte value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x15": [
+      {
+         "Instruction": "initobj <typeTok>",
+         "Description": "Initialize the value at address dest.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x75": [
+      {
+         "Instruction": "isinst <class>",
+         "Description": "Test if obj is an instance of class, returning null or an instance of that class or interface.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x27": [
+      {
+         "Instruction": "jmp <method>",
+         "Description": "Exit current method and jump to the specified method.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x09": [
+      {
+         "Instruction": "ldarg <uint16 (num)>",
+         "Description": "Load argument numbered num onto the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x02": [
+      {
+         "Instruction": "ldarg.0",
+         "Description": "Load argument 0 onto the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x03": [
+      {
+         "Instruction": "ldarg.1",
+         "Description": "Load argument 1 onto the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x04": [
+      {
+         "Instruction": "ldarg.2",
+         "Description": "Load argument 2 onto the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x05": [
+      {
+         "Instruction": "ldarg.3",
+         "Description": "Load argument 3 onto the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0E": [
+      {
+         "Instruction": "ldarg.s <uint8 (num)>",
+         "Description": "Load argument numbered num onto the stack, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x0A": [
+      {
+         "Instruction": "ldarga <uint16 (argNum)>",
+         "Description": "Fetch the address of argument argNum.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0F": [
+      {
+         "Instruction": "ldarga.s <uint8 (argNum)>",
+         "Description": "Fetch the address of argument argNum, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x20": [
+      {
+         "Instruction": "ldc.i4 <int32 (num)>",
+         "Description": "Push num of type int32 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x16": [
+      {
+         "Instruction": "ldc.i4.0",
+         "Description": "Push 0 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x17": [
+      {
+         "Instruction": "ldc.i4.1",
+         "Description": "Push 1 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x18": [
+      {
+         "Instruction": "ldc.i4.2",
+         "Description": "Push 2 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x19": [
+      {
+         "Instruction": "ldc.i4.3",
+         "Description": "Push 3 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1A": [
+      {
+         "Instruction": "ldc.i4.4",
+         "Description": "Push 4 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1B": [
+      {
+         "Instruction": "ldc.i4.5",
+         "Description": "Push 5 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1C": [
+      {
+         "Instruction": "ldc.i4.6",
+         "Description": "Push 6 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1D": [
+      {
+         "Instruction": "ldc.i4.7",
+         "Description": "Push 7 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1E": [
+      {
+         "Instruction": "ldc.i4.8",
+         "Description": "Push 8 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x15": [
+      {
+         "Instruction": "ldc.i4.m1",
+         "Description": "Push -1 onto the stack as int32.",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "ldc.i4.M1",
+         "Description": "Push -1 onto the stack as int32 (alias for ldc.i4.m1).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x1F": [
+      {
+         "Instruction": "ldc.i4.s <int8 (num)>",
+         "Description": "Push num onto the stack as int32, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x21": [
+      {
+         "Instruction": "ldc.i8 <int64 (num)>",
+         "Description": "Push num of type int64 onto the stack as int64.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x22": [
+      {
+         "Instruction": "ldc.r4 <float32 (num)>",
+         "Description": "Push num of type float32 onto the stack as F.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x23": [
+      {
+         "Instruction": "ldc.r8 <float64 (num)>",
+         "Description": "Push num of type float64 onto the stack as F.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xA3": [
+      {
+         "Instruction": "ldelem <typeTok>",
+         "Description": "Load the element at index onto the top of the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x97": [
+      {
+         "Instruction": "ldelem.i",
+         "Description": "Load the element with type native int at index onto the top of the stack as a native int.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x90": [
+      {
+         "Instruction": "ldelem.i1",
+         "Description": "Load the element with type int8 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x92": [
+      {
+         "Instruction": "ldelem.i2",
+         "Description": "Load the element with type int16 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x94": [
+      {
+         "Instruction": "ldelem.i4",
+         "Description": "Load the element with type int32 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x96": [
+      {
+         "Instruction": "ldelem.i8",
+         "Description": "Load the element with type int64 at index onto the top of the stack as an int64.",
+         "Type of instruction": "Object model instruction"
+      },
+      {
+         "Instruction": "ldelem.u8",
+         "Description": "Load the element with type unsigned int64 at index onto the top of the stack as an int64 (alias for ldelem.i8).",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x98": [
+      {
+         "Instruction": "ldelem.r4",
+         "Description": "Load the element with type float32 at index onto the top of the stack as an F",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x99": [
+      {
+         "Instruction": "ldelem.r8",
+         "Description": "Load the element with type float64 at index onto the top of the stack as an F.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9A": [
+      {
+         "Instruction": "ldelem.ref",
+         "Description": "Load the element at index onto the top of the stack as an O. The type of the O is the same as the element type of the array pushed on the CIL stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x91": [
+      {
+         "Instruction": "ldelem.u1",
+         "Description": "Load the element with type unsigned int8 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x93": [
+      {
+         "Instruction": "ldelem.u2",
+         "Description": "Load the element with type unsigned int16 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x95": [
+      {
+         "Instruction": "ldelem.u4",
+         "Description": "Load the element with type unsigned int32 at index onto the top of the stack as an int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x8F": [
+      {
+         "Instruction": "ldelema <class>",
+         "Description": "Load the address of element at index onto the top of the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x7B": [
+      {
+         "Instruction": "ldfld <field>",
+         "Description": "Push the value of field of object (or value type) obj, onto the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x7C": [
+      {
+         "Instruction": "ldflda <field>",
+         "Description": "Push the address of field of object obj on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x06": [
+      {
+         "Instruction": "ldftn <method>",
+         "Description": "Push a pointer to a method referenced by method, on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4D": [
+      {
+         "Instruction": "ldind.i",
+         "Description": "Indirect load value of type native int as native int on the stack",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x46": [
+      {
+         "Instruction": "ldind.i1",
+         "Description": "Indirect load value of type int8 as int32 on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x48": [
+      {
+         "Instruction": "ldind.i2",
+         "Description": "Indirect load value of type int16 as int32 on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4A": [
+      {
+         "Instruction": "ldind.i4",
+         "Description": "Indirect load value of type int32 as int32 on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4C": [
+      {
+         "Instruction": "ldind.i8",
+         "Description": "Indirect load value of type int64 as int64 on the stack.",
+         "Type of instruction": "Base instruction"
+      },
+      {
+         "Instruction": "ldind.u8",
+         "Description": "Indirect load value of type unsigned int64 as int64 on the stack (alias for ldind.i8).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4E": [
+      {
+         "Instruction": "ldind.r4",
+         "Description": "Indirect load value of type float32 as F on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4F": [
+      {
+         "Instruction": "ldind.r8",
+         "Description": "Indirect load value of type float64 as F on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x50": [
+      {
+         "Instruction": "ldind.ref",
+         "Description": "Indirect load value of type object ref as O on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x47": [
+      {
+         "Instruction": "ldind.u1",
+         "Description": "Indirect load value of type unsigned int8 as int32 on the stack",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x49": [
+      {
+         "Instruction": "ldind.u2",
+         "Description": "Indirect load value of type unsigned int16 as int32 on the stack",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x4B": [
+      {
+         "Instruction": "ldind.u4",
+         "Description": "Indirect load value of type unsigned int32 as int32 on the stack",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x8E": [
+      {
+         "Instruction": "ldlen",
+         "Description": "Push the length (of type native unsigned int) of array on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x0C": [
+      {
+         "Instruction": "ldloc <uint16 (indx)>",
+         "Description": "Load local variable of index indx onto stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x06": [
+      {
+         "Instruction": "ldloc.0",
+         "Description": "Load local variable 0 onto stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x07": [
+      {
+         "Instruction": "ldloc.1",
+         "Description": "Load local variable 1 onto stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x08": [
+      {
+         "Instruction": "ldloc.2",
+         "Description": "Load local variable 2 onto stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x09": [
+      {
+         "Instruction": "ldloc.3",
+         "Description": "Load local variable 3 onto stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x11": [
+      {
+         "Instruction": "ldloc.s <uint8 (indx)>",
+         "Description": "Load local variable of index indx onto stack, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x0D": [
+      {
+         "Instruction": "ldloca <uint16 (indx)>",
+         "Description": "Load address of local variable with index indx.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x12": [
+      {
+         "Instruction": "ldloca.s <uint8 (indx)>",
+         "Description": "Load address of local variable with index indx, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x14": [
+      {
+         "Instruction": "ldnull",
+         "Description": "Push a null reference on the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x71": [
+      {
+         "Instruction": "ldobj <typeTok>",
+         "Description": "Copy the value stored at address src to the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x7E": [
+      {
+         "Instruction": "ldsfld <field>",
+         "Description": "Push the value of the static field on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x7F": [
+      {
+         "Instruction": "ldsflda <field>",
+         "Description": "Push the address of the static field, field, on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x72": [
+      {
+         "Instruction": "ldstr <string>",
+         "Description": "Push a string object for the literal string.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xD0": [
+      {
+         "Instruction": "ldtoken <token>",
+         "Description": "Convert metadata token to its runtime representation.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x07": [
+      {
+         "Instruction": "ldvirtftn <method>",
+         "Description": "Push address of virtual method on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xDD": [
+      {
+         "Instruction": "leave <int32 (target)>",
+         "Description": "Exit a protected region of code.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xDE": [
+      {
+         "Instruction": "leave.s <int8 (target)>",
+         "Description": "Exit a protected region of code, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x0F": [
+      {
+         "Instruction": "localloc",
+         "Description": "Allocate space from the local memory pool.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xC6": [
+      {
+         "Instruction": "mkrefany <class>",
+         "Description": "Push a typed reference to ptr of type class onto the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x5A": [
+      {
+         "Instruction": "mul",
+         "Description": "Multiply values.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD8": [
+      {
+         "Instruction": "mul.ovf",
+         "Description": "Multiply signed integer values. Signed result shall fit in same size",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xD9": [
+      {
+         "Instruction": "mul.ovf.un",
+         "Description": "Multiply unsigned integer values. Unsigned result shall fit in same size",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x65": [
+      {
+         "Instruction": "neg",
+         "Description": "Negate value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x8D": [
+      {
+         "Instruction": "newarr <etype>",
+         "Description": "Create a new array with elements of type etype.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x73": [
+      {
+         "Instruction": "newobj <ctor>",
+         "Description": "Allocate an uninitialized object or value type and call ctor.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x19": [
+      {
+         "Instruction": "no. {  typecheck,  rangecheck,  nullcheck  }",
+         "Description": "The specified fault check(s) normally performed as part of the execution of the subsequent instruction can/shall be skipped.",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0x00": [
+      {
+         "Instruction": "nop",
+         "Description": "Do nothing (No operation).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x66": [
+      {
+         "Instruction": "not",
+         "Description": "Bitwise complement (logical not).",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x60": [
+      {
+         "Instruction": "or",
+         "Description": "Bitwise OR of two integer values, returns an integer.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x26": [
+      {
+         "Instruction": "pop",
+         "Description": "Pop value from the stack.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x1E": [
+      {
+         "Instruction": "readonly.",
+         "Description": "Specify that the subsequent array address operation performs no type check at runtime, and that it returns a controlled-mutability managed pointer",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0xFE 0x1D": [
+      {
+         "Instruction": "refanytype",
+         "Description": "Push the type token stored in a typed reference.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xC2": [
+      {
+         "Instruction": "refanyval <type>",
+         "Description": "Push the address stored in a typed reference.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x5D": [
+      {
+         "Instruction": "rem",
+         "Description": "Remainder when dividing one value by another.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x5E": [
+      {
+         "Instruction": "rem.un",
+         "Description": "Remainder when dividing one unsigned value by another.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x2A": [
+      {
+         "Instruction": "ret",
+         "Description": "Return from method, possibly with a value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x1A": [
+      {
+         "Instruction": "rethrow",
+         "Description": "Rethrow the current exception.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x62": [
+      {
+         "Instruction": "shl",
+         "Description": "Shift an integer left (shifting in zeros), return an integer.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x63": [
+      {
+         "Instruction": "shr",
+         "Description": "Shift an integer right (shift in sign), return an integer.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x64": [
+      {
+         "Instruction": "shr.un",
+         "Description": "Shift an integer right (shift in zero), return an integer.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x1C": [
+      {
+         "Instruction": "sizeof <typeTok>",
+         "Description": "Push the size, in bytes, of a type as an unsigned int32.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x0B": [
+      {
+         "Instruction": "starg <uint16 (num)>",
+         "Description": "Store value to the argument numbered num.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x10": [
+      {
+         "Instruction": "starg.s <uint8 (num)>",
+         "Description": "Store value to the argument numbered num, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xA4": [
+      {
+         "Instruction": "stelem <typeTok>",
+         "Description": "Replace array element at index with the value on the stack",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9B": [
+      {
+         "Instruction": "stelem.i",
+         "Description": "Replace array element at index with the i value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9C": [
+      {
+         "Instruction": "stelem.i1",
+         "Description": "Replace array element at index with the int8 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9D": [
+      {
+         "Instruction": "stelem.i2",
+         "Description": "Replace array element at index with the int16 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9E": [
+      {
+         "Instruction": "stelem.i4",
+         "Description": "Replace array element at index with the int32 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x9F": [
+      {
+         "Instruction": "stelem.i8",
+         "Description": "Replace array element at index with the int64 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xA0": [
+      {
+         "Instruction": "stelem.r4",
+         "Description": "Replace array element at index with the float32 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xA1": [
+      {
+         "Instruction": "stelem.r8",
+         "Description": "Replace array element at index with the float64 value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xA2": [
+      {
+         "Instruction": "stelem.ref",
+         "Description": "Replace array element at index with the ref value on the stack.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x7D": [
+      {
+         "Instruction": "stfld <field>",
+         "Description": "Replace the value of field of the object obj with value.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xDF": [
+      {
+         "Instruction": "stind.i",
+         "Description": "Store value of type native int into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x52": [
+      {
+         "Instruction": "stind.i1",
+         "Description": "Store value of type int8 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x53": [
+      {
+         "Instruction": "stind.i2",
+         "Description": "Store value of type int16 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x54": [
+      {
+         "Instruction": "stind.i4",
+         "Description": "Store value of type int32 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x55": [
+      {
+         "Instruction": "stind.i8",
+         "Description": "Store value of type int64 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x56": [
+      {
+         "Instruction": "stind.r4",
+         "Description": "Store value of type float32 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x57": [
+      {
+         "Instruction": "stind.r8",
+         "Description": "Store value of type float64 into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x51": [
+      {
+         "Instruction": "stind.ref",
+         "Description": "Store value of type object ref (type O) into memory at address",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x0E": [
+      {
+         "Instruction": "stloc <uint16 (indx)>",
+         "Description": "Pop a value from stack into local variable indx.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0A": [
+      {
+         "Instruction": "stloc.0",
+         "Description": "Pop a value from stack into local variable 0.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0B": [
+      {
+         "Instruction": "stloc.1",
+         "Description": "Pop a value from stack into local variable 1.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0C": [
+      {
+         "Instruction": "stloc.2",
+         "Description": "Pop a value from stack into local variable 2.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x0D": [
+      {
+         "Instruction": "stloc.3",
+         "Description": "Pop a value from stack into local variable 3.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x13": [
+      {
+         "Instruction": "stloc.s <uint8 (indx)>",
+         "Description": "Pop a value from stack into local variable indx, short form.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x81": [
+      {
+         "Instruction": "stobj <typeTok>",
+         "Description": "Store a value of type typeTok at an address.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x80": [
+      {
+         "Instruction": "stsfld <field>",
+         "Description": "Replace the value of the static field with val.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0x59": [
+      {
+         "Instruction": "sub",
+         "Description": "Subtract value2 from value1, returning a new value.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xDA": [
+      {
+         "Instruction": "sub.ovf",
+         "Description": "Subtract native int from a native int. Signed result shall fit in same size",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xDB": [
+      {
+         "Instruction": "sub.ovf.un",
+         "Description": "Subtract native unsigned int from a native unsigned int. Unsigned result shall fit in same size.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0x45": [
+      {
+         "Instruction": "switch <uint32, int32, int32 (t1..tN)>",
+         "Description": "Jump to one of n values.",
+         "Type of instruction": "Base instruction"
+      }
+   ],
+   "0xFE 0x14": [
+      {
+         "Instruction": "tail.",
+         "Description": "Subsequent call terminates current method",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0x7A": [
+      {
+         "Instruction": "throw",
+         "Description": "Throw an exception.",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x12": [
+      {
+         "Instruction": "unaligned. (alignment)",
+         "Description": "Subsequent pointer instruction might be unaligned.",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0x79": [
+      {
+         "Instruction": "unbox <valuetype>",
+         "Description": "Extract a value-type from obj, its boxed representation, and push a controlled-mutability managed pointer to it to the top of the stack",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xA5": [
+      {
+         "Instruction": "unbox.any <typeTok>",
+         "Description": "Extract a value-type from obj, its boxed representation, and copy to the top of the stack",
+         "Type of instruction": "Object model instruction"
+      }
+   ],
+   "0xFE 0x13": [
+      {
+         "Instruction": "volatile.",
+         "Description": "Subsequent pointer reference is volatile.",
+         "Type of instruction": "Prefix to instruction"
+      }
+   ],
+   "0x61": [
+      {
+         "Instruction": "xor",
+         "Description": "Bitwise XOR of integer values, returns an integer.",
+         "Type of instruction": "Base instruction"
+      }
+   ]
+}

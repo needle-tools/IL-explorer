@@ -1,0 +1,47 @@
+{
+    "index": 2,
+    "history": [
+        {
+            "assemblyFullName": "unity.disassembler.testscripts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "typeFullName": "Disassembler.TestScripts.TestMethods",
+            "methodFullName": "public System.Single get_MyFloatProperty()",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "unity.disassembler.testscripts, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "typeFullName": "Disassembler.TestScripts.TestMethods",
+            "methodFullName": "public void set_MyFloatProperty(System.Single value)",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "typeFullName": "UnityEngine.UI.Button",
+            "methodFullName": "protected void OnCanvasGroupChanged()",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "typeFullName": "System.Collections.Generic.List`1",
+            "methodFullName": "protected void OnCanvasGroupChanged()",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "typeFullName": "System.Collections.Generic.List`1",
+            "methodFullName": "private object System.Collections.IList.get_Item(int index)",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "typeFullName": "System.Collections.Generic.List`1",
+            "methodFullName": "public T get_Item(int index)",
+            "lineOffset": -1
+        },
+        {
+            "assemblyFullName": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+            "typeFullName": "System.ThrowHelper",
+            "methodFullName": "internal static void ThrowArgumentOutOfRangeException()",
+            "lineOffset": -1
+        }
+    ]
+}

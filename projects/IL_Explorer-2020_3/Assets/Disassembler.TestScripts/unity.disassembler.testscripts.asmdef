@@ -1,0 +1,18 @@
+{
+    "name": "unity.disassembler.testscripts",
+    "references": [
+        "GUID:7e82e99e4e69d1842a6d50598506f0c7",
+        "GUID:2bafac87e7f4b9b418d9448d219b01ab"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

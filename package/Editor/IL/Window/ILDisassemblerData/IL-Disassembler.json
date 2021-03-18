@@ -1,0 +1,6 @@
+{
+    "key": "IL-Disassembler",
+    "selectedAssembly": "UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "selectedType": "UnityEngine.UI.Button",
+    "selectedMethod": "protected void OnCanvasGroupChanged()"
+}

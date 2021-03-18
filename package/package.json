@@ -1,0 +1,8 @@
+{
+    "name": "com.needle.il-explorer",
+    "description": "",
+    "version": "0.0.1-pre",
+    "unity": "2018.4",
+    "displayName": "IL Explorer",
+    "license": "Proprietary"
+  }
