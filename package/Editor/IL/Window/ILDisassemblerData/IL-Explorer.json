@@ -1,6 +1,6 @@
 {
     "key": "IL-Explorer",
-    "selectedAssembly": "",
-    "selectedType": "",
-    "selectedMethod": ""
+    "selectedAssembly": "UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+    "selectedType": "UnityEditor.CameraEditor",
+    "selectedMethod": "private bool get_wantDeferredRendering()"
 }
