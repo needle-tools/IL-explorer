@@ -1,6 +1,6 @@
 # IL Explorer 🔬
 
-Utility window to view Intermediate Language (IL) for any type in Unity Project
+Utility window to view Intermediate Language (IL) for any type in a Unity Project
 
 ![](package/Documentation~/window.png)
 
